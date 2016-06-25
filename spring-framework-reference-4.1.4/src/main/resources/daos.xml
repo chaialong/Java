@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="accountDao" class="com.dao.JpaAccountDao"></bean>
+    <bean id="itemDao" class="com.dao.JpaItemDao"></bean>
+    <!--<bean id="exampleBean" class="com.dao.ExampleBean">-->
+        <!--<constructor-arg type="int" value="50"/>-->
+        <!--<constructor-arg type="java.lang.String" value="100"/>-->
+    <!--</bean>-->
+    <bean id="exampleBean" class="com.dao.ExampleBean">
+        <constructor-arg name="years" value="100"/>
+        <constructor-arg name="ultimateAnswer" value="This is an answer"/>
+    </bean>
+</beans>
