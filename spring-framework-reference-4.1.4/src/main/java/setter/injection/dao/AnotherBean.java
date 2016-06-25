@@ -1,4 +1,4 @@
-package injection.setter.dao;
+package setter.injection.dao;
 
 /**
  * Created by chaialong on 6/25/2016.

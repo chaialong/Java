@@ -1,7 +1,8 @@
-package injection.setter.dao;
+package setter.injection.main;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import setter.injection.dao.ExampleBean;
 
 /**
  * Created by chaialong on 6/25/2016.
