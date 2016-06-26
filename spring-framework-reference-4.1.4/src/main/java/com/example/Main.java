@@ -1,7 +1,7 @@
-package example;
+package com.example;
 
-import example.collection.ComplexObject;
-import example.collection.MergeCollection;
+import com.example.collection.ComplexObject;
+import com.example.collection.MergeCollection;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

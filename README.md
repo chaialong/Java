@@ -1,2 +1,2 @@
 # Java
-This is an exercise project for Java and related technologies, for example: Spring Framework, Hibernate.
+This is an exercise project for Java and related technologies, for com.example: Spring Framework, Hibernate.

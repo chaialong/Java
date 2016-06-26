@@ -1,4 +1,4 @@
-package example.collection;
+package com.example.collection;
 
 import java.util.List;
 import java.util.Map;
