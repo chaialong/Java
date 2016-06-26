@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="parent"  abstract="true">
+        <property name="adminEmails">
+            <props>
+                <prop key="administrator">administrator@example.com</prop>
+                <prop key="support">support@example.com</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="child" parent="parent" class="example.collection.MergeCollection">
+        <property name="adminEmails">
+            <props merge="true">
+                <prop key="dev">dev@example.com</prop>
+                <prop key="support">anotherSupport@example.com</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
