@@ -1,4 +1,4 @@
-package based.container.configuration;
+package based.container.configuration.normal;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

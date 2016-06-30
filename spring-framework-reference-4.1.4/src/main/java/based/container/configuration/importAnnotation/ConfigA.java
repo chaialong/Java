@@ -1,12 +1,12 @@
-package based.container.configuration;
+package based.container.configuration.importAnnotation;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class AppConfig {
+public class ConfigA {
     @Bean
-    public MyService myService() {
-        return new MyServiceImpl();
+    public A a(){
+        return new A("a");
     }
 }
