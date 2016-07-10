@@ -17,7 +17,7 @@ public class CoreJavaApis {
         System.out.println(birds.size());
         birds.set(0, "robin");
         System.out.println(birds);
-        birds.set(1, "robin");
+//        birds.set(1, "robin");
 
 
         System.out.println(list);

@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by chaialong on 7/10/2016.
- */
 public class Sorting {
     @Test
     public void Test(){
