@@ -41,4 +41,14 @@ public class Chapter4Test {
 
 
     }
+
+    public int howMany(boolean b, boolean... b2) {
+        return b2.length;
+    }
+
+    @Test
+    public void test5(){
+        System.out.println(howMany(true, new boolean[2]));
+
+    }
 }
