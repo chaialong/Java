@@ -145,4 +145,63 @@ public class Exercise {
         System.out.println(date.getYear() + " " + date.getMonth() + " "
                 + date.getDayOfMonth());
     }
+
+    @Test
+    public void test14(){
+        StringBuilder sb = new StringBuilder();
+        sb.append("hello");
+        System.out.println(sb);
+
+    }
+
+    @Test
+    public void test15(){
+        String [] names = {"Tom", "Dick", "Harry"};
+        List<String> list = Arrays.asList(names);
+        list.set(0, "Sue");
+        System.out.println(names[0]);
+    }
+
+    @Test
+    public void test16(){
+        List<String> list1 = new ArrayList<>();
+        list1.add("hi");
+
+        List<String> list2 = new ArrayList<>();
+        list2.add("hi");
+
+        System.out.println(list1.equals(list2));
+    }
+
+    @Test
+    public void test17(){
+        String str1 = "hello";
+        String str2 = new String(str1);
+
+        System.out.println(str1 == str2);
+        System.out.println("hello" == str1);
+        System.out.println("hello" == str2);
+    }
+
+    @Test
+    public void test18(){
+        String letters = "abcdef";
+        System.out.println(letters.length());
+        System.out.println(letters.charAt(3));
+        System.out.println(letters.charAt(6));
+    }
+
+    @Test
+    public void test19(){
+        StringBuilder b = new StringBuilder("rumble");
+        b.append(4).deleteCharAt(3).delete(3, b.length() - 1);
+        System.out.println(b);
+    }
+
+    @Test
+    public void test20(){
+        LocalDate date = LocalDate.of(2018, Month.APRIL, 40);
+        System.out.println(date.getYear() + " " + date.getMonth() + " "
+                + date.getDayOfMonth());
+    }
 }
